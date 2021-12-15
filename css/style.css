@@ -90,6 +90,10 @@ li {
     margin: 42px 500px 328px;
 }
 
+.header__logo-link {
+    align-items: baseline;
+}
+
 .headerList {
     display: flex;
     justify-content: space-around;
@@ -268,6 +272,7 @@ h2 {
 
 .tracklistWrapper {
     display: flex;
+    margin-bottom: 180px;
 }
 
 .tracklistImage {
@@ -277,7 +282,7 @@ h2 {
 .titleTracks {
     display: flex;
     align-items: baseline;
-    margin-bottom: 137px;
+    margin-bottom: 100px;
 }
 
 .titleTracks h1 {
@@ -295,5 +300,59 @@ h2 {
     }
 }
 
+.numeral {
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-right: 20px;
+}
 
-/* asdawd */
+.tracks li {
+    margin-bottom: 26px;
+    display: flex;
+}
+
+.songname {
+    font-size: 18px;
+}
+
+.songname:hover {
+    color: #7A66CC;
+}
+
+.tracks ul {
+    margin-bottom: 50px;
+}
+
+.follows {
+    display: flex;
+}
+
+.follows span {
+    margin-right: 40px;
+}
+
+.spotifyIco {
+    margin-right: 30px;
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.midColumn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.topMid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.leftColumn {
+    margin-right: 30px;
+}
