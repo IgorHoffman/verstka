@@ -1,4 +1,6 @@
 /* font style start */
+
+
 /* poppins-regular - latin */
 
 @font-face {
@@ -9,6 +11,8 @@
     url('../fonts/poppins-v15-latin-regular.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+
 /* poppins-500 - latin */
 
 @font-face {
@@ -19,6 +23,8 @@
     url('../fonts/poppins-v15-latin-500.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+
 /* poppins-600 - latin */
 
 @font-face {
@@ -29,6 +35,8 @@
     url('../fonts/poppins-v15-latin-600.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+
 /* poppins-700 - latin */
 
 @font-face {
@@ -39,6 +47,8 @@
     url('../fonts/poppins-v15-latin-700.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+
 /* font style end */
 
 html {
@@ -212,11 +222,11 @@ h2 {
 }
 
 .child {
-  display: flex;
-  min-width: 250px;
-  align-items: center;
-  width: 50%;
-  margin-bottom: 6px;
+    display: flex;
+    min-width: 250px;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 25px;
 }
 
 .marker-ico {
@@ -345,7 +355,7 @@ h2 {
 .leftTopMid:hover .columnDesc,
 .botMid:hover .columnDesc,
 .rightColumn:hover .columnDesc,
-.leftColumn:hover .columnDesc { 
+.leftColumn:hover .columnDesc {
     color: #7A66CC;
     transition: 0.3s;
 }
@@ -535,32 +545,77 @@ h2 {
 }
 
 @media only screen and (max-width: 1085px) {
-  .quoter {
-      position: unset;
-      margin-top: 10px;
-  }
-
-  .musicCards {
-    display: unset;
-  }
-  
-  .musicCard, 
-  .musicCard:last-child {
-    margin-right: 0;
-    margin: 0 auto;
-  }
+    .quoter {
+        position: unset;
+        margin-top: 10px;
+    }
+    .musicCards {
+        display: unset;
+    }
+    .musicCard,
+    .musicCard:last-child {
+        margin-right: 0;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-  .descContainer {
-    max-width: 100%;
-  }
-
-  .tracklistWrapper {
-    justify-content: center;
-  }
-
-  .tracklistImg {
-    width: 360px;
-  }
+    .descContainer {
+        max-width: 100%;
+    }
+    .tracklistWrapper {
+        justify-content: center;
+    }
+    .tracklistImg {
+        width: 360px;
+    }
+    .imgWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .topMid {
+        display: flex;
+        flex-direction: column;
+    }
+    .topMid {
+        margin-bottom: 0;
+    }
+    .botMidImg {
+        width: 255px;
+        height: 235px;
+    }
+    .botMid span {
+        white-space: normal;
+    }
+    .midColumn {
+        margin: 0;
+    }
+    .leftColumn {
+        margin: 0;
+    }
+    .midCard {
+        display: none;
+    }
+    .rightCard {
+        display: none;
+    }
+    .card img {
+        width: 255px;
+    }
+    .footerLogoLink {
+        padding: 0;
+        margin-left: 55px;
+    }
+    .medias {
+        justify-content: flex-start;
+    }
+    .medias img {
+        margin-right: 5px;
+    }
+    .footerInfo {
+        font-size: 13px;
+    }
+    .copyrights {
+        width: 360px;
+    }
 }
